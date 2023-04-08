@@ -10,7 +10,11 @@ module.exports = {
       colors: {
         "sidebar-bg-clr": '#131313',
         "dashboard-bg-clr": '#F8F8F8',
-        "text-bg-clr":'#D4D4FC'
+        "text-bg-clr":'#D4D4FC',
+        'green-div-bg': '#DDF6DE',
+        'green-div-text-clr': '#608662',
+        'graph-green':'#C2ECC1',
+        'graph-purple':'#C5C7F6'
       }
     },
   },

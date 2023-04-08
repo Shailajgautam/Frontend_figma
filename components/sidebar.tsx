@@ -12,7 +12,7 @@ export const Sidebar = () => {
       const firstGroupChildStyle = "flex pt-4";
 
       return (
-            <div className="w-1/6 bg-sidebar-bg-clr text-white">
+            <div className="w-2/12 bg-sidebar-bg-clr text-white">
 
                   <div className="img_container flex justify-center pt-12">
                         <img src={logo.src} alt="you" className='w-30 drop-shadow-lg' />
@@ -37,8 +37,8 @@ export const Sidebar = () => {
                               </div>
                         </div>
                   </div>
-
-                  <div className="second_container pl-20 pt-12">
+                  <div className='flex justify-center'>
+                  <div className="second_container pt-8">
                         <div className={firstGroupChildStyle}>
                               <img src={settingsIcon.src} alt="settings" />
                               <p className='pl-4'>Settings</p>
@@ -48,25 +48,28 @@ export const Sidebar = () => {
                               <p className='pl-4'>Help?</p>
                         </div>
                   </div>
+                  </div>
 
-                  <div className='third_container flex justify-center pt-12   '>
-                        <div className=' w-3/4  p-4  ring ring-text-bg-clr rounded-3xl'>
+                  <div className='third_container flex justify-center pt-12'>
+                        <div className=' w-3/4  p-4  ring-2 ring-text-bg-clr rounded-3xl '>
                               <p className='font-bold'>Your free trail is about to end in </p>
                               <p className='font-bold text-2xl'>10 days.</p>
                               <p className='text-xs pt-2 text-text-bg-clr' >You will not be billed during your free trial.</p>
                               <p className='text-xs pt-2 text-text-bg-clr'>To keep your projects running after the trial end, upgrade to a paid option.</p>
                               <div className='pt-4 flex justify-center'>
-                                    <button className='ring ring-text-bg-clr rounded-lg pl-6 pr-6 pt-1 pb-1'>
+                                    <button className='ring ring-text-bg-clr ring-2 rounded-lg pl-6 pr-6 pt-1 pb-1'>
                                           Upgrade
                                     </button>
                               </div>
                         </div>
                   </div>
-
-                  <div className='fourth_container pl-20 pt-6'>
-                        <div className={firstGroupChildStyle} >
-                              <img src={logoutIcon.src} alt="logout" />
-                              <p className='pl-4'>Log out</p>
+                  
+                  <div className='flex justify-center'>
+                        <div className='fourth_container pt-4 '>
+                              <div className={firstGroupChildStyle} >
+                                    <img src={logoutIcon.src} alt="logout" />
+                                    <p className='pl-4'>Log out</p>
+                              </div>
                         </div>
                   </div>
             </div>
