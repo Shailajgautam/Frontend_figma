@@ -137,8 +137,8 @@ export const Details = () => {
           <p className='text-2xl py-4'>Recent Activity</p>
         </div>
 
-        <div className='hello-container flex gap-x-2 bg-dashboard-bg-clr h-8 mt-10 rounded-md pt-1 mr-10'>
-          <div >
+        <div className='flex gap-x-2 bg-dashboard-bg-clr mt-10 h-8 p-2 rounded-md pt-1 mr-10'>
+          <div>
             Last 24h
           </div>
           <div>
