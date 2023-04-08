@@ -20,6 +20,7 @@ export const Details = () => {
             <input className=" flex-1  outline-none bg-dashboard-bg-clr  " type="text" placeholder="Search" />
             <button type="submit" hidden />
             <img src={searchIcon.src} alt='search' />
+
           </form>
         </div>
         <div className='flex gap-x-4 '>
