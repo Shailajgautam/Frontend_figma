@@ -17,31 +17,31 @@ export const Dashboard = () => {
       const hrStyle = ' mx-auto border';
       return (
             <div className='w-4/12 bg-dashboard-bg-clr text-black' >
-                  <div className=' pl-14 pt-12'>
-                        <p className=' text-3xl'>Dashboard</p>
+                  <div className=' pl-14 pt-10'>
+                        <p className=' font-sulphur-point text-3xl'>Dashboard</p>
                   </div>
                   <div>
                         <div className='connections_container pb-3 w-9/12 mx-auto'>
-                              <p className='pt-16'>Connections</p>
+                              <p className='pt-16 text-text-clr font-sulphur-point'>Connections</p>
                               <div className='text-2xl flex justify-between mb-2'>
-                                    <p className=''>2635</p>
+                                    <p className='font-rubik'>2632</p>
                                     {greenDiv(56)}
                               </div>
                               <hr className={hrStyle} />
                         </div>
                         
                         <div className='followers_container pb-3 w-9/12 mx-auto'>
-                              <p className=''>Followers</p>
+                              <p className='text-text-clr font-sulphur-point'>Followers</p>
                               <div className='text-2xl flex justify-between mb-2'>
-                                    <p className=''>2667</p>
+                                    <p className='font-rubik'>2667</p>
                                     {greenDiv(0)}
                               </div>
                               <hr className={hrStyle}/>
                         </div>
                         <div className='connect_container pb-3 w-9/12 mx-auto'>
-                              <p className=''>Connect Invites</p>
+                              <p className='text-text-clr font-sulphur-point'>Connect Invites</p>
                               <div className='text-2xl flex justify-between mb-2'>
-                                    <p className=''>100</p>
+                                    <p className='font-rubik'>100</p>
                                     {greenDiv(60)}
                               </div>
                         </div>
@@ -54,17 +54,17 @@ export const Dashboard = () => {
                   <div className=' flex justify-center pt-4'>
                         <div className='flex '>
                               <div className='bg-graph-green mt-1 w-4 h-4 rounded-md' ></div>
-                              <p className='pl-2 pr-2'>Connections</p>
+                              <p className='pl-2 pr-2 font-sulphur-point'>Connections</p>
 
                         </div>
                         <div className='flex '>
                               <div className='bg-black mt-1 w-4 h-4 rounded-md' ></div>
-                              <p className='pl-2 pr-2'>Follows</p>
+                              <p className='pl-2 pr-2 font-sulphur-point'>Follows</p>
 
                         </div>
                         <div className='flex '>
                               <div className='bg-graph-purple mt-1 w-4 h-4 rounded-md ' ></div>
-                              <p className='pl-2'>Connective Invites</p>
+                              <p className='pl-2 font-sulphur-point'>Connective Invites</p>
 
                         </div>
 

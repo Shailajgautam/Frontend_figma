@@ -5,7 +5,7 @@ import React from 'react'
 
 export const index = () => {
   return (
-  <div className='flex h-screen'>
+  <div className='flex h-screen '>
   <Sidebar/>
   <Dashboard />
   <Details />
