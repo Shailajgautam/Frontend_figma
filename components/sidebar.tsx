@@ -57,7 +57,7 @@ export const Sidebar = () => {
                               <p className='text-xs pt-2 text-text-bg-clr' >You will not be billed during your free trial.</p>
                               <p className='text-xs pt-2 text-text-bg-clr'>To keep your projects running after the trial end, upgrade to a paid option.</p>
                               <div className='pt-4 flex justify-center'>
-                                    <button className='ring ring-text-bg-clr ring-2 rounded-lg pl-6 pr-6 pt-1 pb-1'>
+                                    <button className='ring-2 ring-text-bg-clr rounded-lg pl-6 pr-6 pt-1 pb-1'>
                                           Upgrade
                                     </button>
                               </div>
