@@ -8,7 +8,7 @@ import piechartIcon from '../assets/piechart icon.svg'
 import activityPerson1 from '../assets/activity person 1.svg'
 import activityPerson2 from '../assets/activity person 2.svg'
 import activityPerson3 from '../assets/activity person 3.svg'
-import chart from '../assets/chart.svg'
+import chart from '../assets/graphchart.svg'
 
 
 export const Details = () => {
